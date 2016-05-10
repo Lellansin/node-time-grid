@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lellansin/node-time-grid/issues"
   },
-  "homepage": "https://github.com/Lellansin/node-time-grid#readme"
+  "homepage": "https://github.com/Lellansin/node-time-grid#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
 }
