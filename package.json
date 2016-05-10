@@ -1,0 +1,19 @@
+{
+  "name": "time-grid",
+  "version": "0.0.0",
+  "description": "This one is too lazy to write sth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lellansin/node-time-grid.git"
+  },
+  "author": "lellansin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lellansin/node-time-grid/issues"
+  },
+  "homepage": "https://github.com/Lellansin/node-time-grid#readme"
+}

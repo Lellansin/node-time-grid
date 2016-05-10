@@ -1,2 +1,3 @@
-# node-time-grid
-This one is too lazy to write sth.
+# TimeGrid
+
+This man is too lazy to write anything.
