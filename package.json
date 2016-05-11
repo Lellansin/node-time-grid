@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Lellansin/node-time-grid#readme",
   "dependencies": {
     "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "mongodb": "^2.1.18"
   }
 }
