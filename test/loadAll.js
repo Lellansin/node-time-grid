@@ -7,13 +7,12 @@ const Grid = require('..')
 let g = new Grid(3600 * 2)
 
 co(function * () {
-  let i = 100
-  let db = yield MongoClient.connect('mongodb://localhost:27017/perf')
-  let collection = db.collection('analy')
+  let db = yield MongoClient.connect('mongodb://localhost:27017/mydb')
+  let collection = db.collection('test')
 
   yield g.loadAll(function * (condition) {
-    let docs = yield collection.find({ createAt: condition }).toArray()
-    return docs.length || i++
+    let doc = yield collection.findOne({ time: condition })
+    return doc.data
   })
 
   console.log(g.report())
